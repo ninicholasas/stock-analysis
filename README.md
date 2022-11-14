@@ -146,11 +146,35 @@ Sub AllStocksAnalysisRefactored()
         
     Next i
     
-    'Pop upa message box indicatingthe time it needed to run the code
+    'Pop up a message box indicatingthe time it needed to run the code
     endTime = Timer
     MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
 
 End Sub
 
-From the outcome the above code we will get the same results from the code before it was refactored;
+From the outcome of the above code we will get the same results from the code before it was refactored;
 
+<img width="242" alt="VBA_Challenge_Result_2017" src="https://user-images.githubusercontent.com/110373282/201551627-3787a248-272f-45b0-bdf7-9cdccf82b3dc.png"><img width="244" alt="VBA_Challenge_Result_2018" src="https://user-images.githubusercontent.com/110373282/201551634-fec408e1-dee1-406c-a046-259eede1eb35.png">
+
+as you can see from the screenshot above, we could tell that **ENPH** and **RUN** would be the ideal stocks to investigate.
+By the growth of the return rate I might consider **RUN** more than **ENPH**.
+
+Now comparing the run time between the original code and the refactored code;
+
+***Original***
+
+<img width="251" alt="green_stock_analysis_2018" src="https://user-images.githubusercontent.com/110373282/201551883-b70b6c43-f731-44c2-b956-c60b9ac5b16b.png">
+
+***Refactored***
+
+<img width="255" alt="VBA_Challenge_2018" src="https://user-images.githubusercontent.com/110373282/201551895-0c7ddfed-1c28-41e7-85dd-71f26e671483.png">
+
+the refactored code ran faster than 5 times the original code.
+
+## Summary
+### Advantages and Disadvantages of Refactoring Code in General
+There are many advantages in refactoring a code. Refactoring improves the maintainability of the code i.e. makes the code easier to understand, helps find bugs easier and enhances executing the program. On the other hand if the code is not properly refactored it may end up introducing new bugs and lose the flexibility of the original code.
+
+### Advantages and Disadvantages of Refactoring Code in this Challenge
+As shown in the **Analysis**, there was a significant difference in the run time between the original and refactored code.
+The clarity of the code seams to be a little lower than the original code, but comparing the run time the outcome is enough to overlook the fact that the code looks more complicated.
