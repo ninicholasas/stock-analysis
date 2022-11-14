@@ -11,7 +11,7 @@ The given excel file was consisted from 2 sheets, 2017 and 2018. Both sheets inc
 
 ## Results
 ### Analysis
-Click here to view the Excel file: [VBA Challenge - Stock Analysis]([https://github.com/ninicholasas/stock_analysis/blob/main/VBA_Challenge.xlsm])
+Click here to view the Excel file: [VBA Challenge - Stock Analysis](https://github.com/ninicholasas/stock_analysis/blob/main/VBA_Challenge.xlsm)
 
 The written VBA code is in Module 6. I first started by copying the code for creating the input box, chart headers, ticker array, and the activation for the proper worksheet. Next I have changed how to iterate through the tickers by adding a tickerIndex and a for-loop to loop through the ticker, tickerVolumes, tickerStartingPrices, and tickerEndingPrices.
 Below is the actual code written in Module 6;
